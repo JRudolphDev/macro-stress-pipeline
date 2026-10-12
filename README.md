@@ -1,6 +1,6 @@
 # macro-stress-pipeline
 
-**Part 1 of 3:** macro-stress-pipeline | [macro-stress-optimizer](https://github.com/JRudolphDev/macro-stress-optimizer) | [macro-stress-forecaster](https://github.com/JRudolphDev/macro-stress-forecaster)
+> **Archived.** This project now lives in [macro-stress](https://github.com/JRudolphDev/macro-stress), which combines the pipeline, optimizer, and forecaster in one repo. This repo is read-only.
 
 A data pipeline that ingests macro and market data, computes a composite financial stress score, and writes the result to parquet for downstream analysis.
 
