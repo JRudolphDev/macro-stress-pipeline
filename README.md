@@ -1,6 +1,6 @@
 # macro-stress-pipeline
 
-**Part 1 of 3:** macro-stress-pipeline | [macro-stress-optimizer](https://github.com/JaredRudolph/macro-stress-optimizer) | [macro-stress-forecaster](https://github.com/JaredRudolph/macro-stress-forecaster)
+**Part 1 of 3:** macro-stress-pipeline | [macro-stress-optimizer](https://github.com/JRudolphDev/macro-stress-optimizer) | [macro-stress-forecaster](https://github.com/JRudolphDev/macro-stress-forecaster)
 
 A data pipeline that ingests macro and market data, computes a composite financial stress score, and writes the result to parquet for downstream analysis.
 
@@ -57,7 +57,7 @@ yfinance + FRED       merge, resample,        rolling pct rank,   orchestration,
 Requires [uv](https://docs.astral.sh/uv/).
 
 ```bash
-git clone https://github.com/JaredRudolph/macro-stress-pipeline.git
+git clone https://github.com/JRudolphDev/macro-stress-pipeline.git
 cd macro-stress-pipeline
 uv sync
 ```
